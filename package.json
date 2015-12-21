@@ -1,0 +1,17 @@
+{
+  "name": "ssg",
+  "version": "0.0.1",
+  "description": "Secure Shell GUI",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Evans",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  },
+  "bin" : {
+      "ssg" : "./bin/ssg"
+  }
+}
