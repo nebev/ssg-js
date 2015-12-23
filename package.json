@@ -4,6 +4,7 @@
   "description": "Secure Shell GUI",
   "main": "lib/index.js",
   "scripts": {
+    "docs": "./node_modules/.bin/jsdoc -d ./docs -P ./package.json -r -R README.md --verbose --debug ./lib/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ben Evans",
@@ -29,5 +30,8 @@
   "bugs": {
    "url": "https://github.com/nebev/ssg-js/issues"
   },
-  "homepage": "https://github.com/nebev/ssg-js"
+  "homepage": "https://github.com/nebev/ssg-js",
+  "devDependencies": {
+    "jsdoc": "^3.4.0"
+  }
 }

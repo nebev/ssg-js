@@ -1,7 +1,7 @@
 # SSG - Secure Shell GUI
 
 ## Background
-This program shows a pretty GUI for all the SSH server connections found in your ~/.ssh/config file.
+This program shows a pretty GUI for all the SSH server connections found in your SSH config file.
 Simply type to filter and use the arrow keys to select. Press enter to open the SSH connection.
 
 ## Installation
@@ -12,7 +12,12 @@ Simply type to filter and use the arrow keys to select. Press enter to open the 
 ## Javascript Usage
 ```
 	var ssg = require('ssg-js');
+
+	// Use the default ~/.ssh/config file
 	ssg.run();
+
+	// Or specify a custom config file path
+	ssg.run('/path/to/my/ssh/config');
 ```
 
 ## Adding Descriptions and Tags
@@ -26,6 +31,12 @@ As SSH config doesn't come with an ability to add a description or tags, you mus
 		User ubuntu
 ```
 
+## Generating Docs
+
+```
+	npm run docs
+```
+
 # Changelog
-###Version 0.1.0 (2015-15-21)
+### Version 0.1.0 (2015-15-21)
 * Initial release
