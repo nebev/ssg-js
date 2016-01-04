@@ -41,8 +41,12 @@ As SSH config doesn't come with an ability to add a description or tags, you mus
 
 ### Version 0.1.2 (2016-01-04)
 * JS Docs
-* Updated Readme
+* Updated Readme (ssg-js rather than ssg)
 * Colours
+* Ability to specify custom config file
+
+### Version 0.1.1
+* Minor Bugfixes
 
 ### Version 0.1.0 (2015-15-21)
 * Initial release
