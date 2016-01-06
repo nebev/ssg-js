@@ -1,13 +1,24 @@
 # SSG - Secure Shell GUI
 
 ## Background
-This program shows a pretty GUI for all the SSH server connections found in your SSH config file.
+This program shows a pretty GUI for all the SSH server connections found in your SSH config file. It also allows you to connect to them.
 Simply type to filter and use the arrow keys to select. Press enter to open the SSH connection.
+
+*You must have an existing SSH Configuration file for this application to be useful. See examples [here](http://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/)*
+
+*By default, this application will look for your config file in ``~/.ssh/config``*
+
+![https://github.com/nebev/ssg-js](https://raw.githubusercontent.com/nebev/ssg-js/master/docs/screenshot.png)
 
 ## Installation
 1. Install using `npm install -g ssg-js`
-2. Run ``ssg`` 
+2. Run ``ssg`` or alternatively ``ssg /path/to/ssh/config/file``
 3. Enjoy all your visualised server connections.
+
+## How to use
+Run ``ssg`` from the command line. All server connections in your config file will appear. You can filter them by typing. Filtering works on Description, Tags and server names.
+
+Select the desired server you want to connect to by using the arrow keys. When selected, press the ENTER key. Alternatively, press ESC if you wish to exit.
 
 ## Javascript Usage
 ```
@@ -38,6 +49,9 @@ As SSH config doesn't come with an ability to add a description or tags, you mus
 ```
 
 # Changelog
+
+### Version 0.1.3 (2014-01-06)
+* Updated documentation. Screenshots etc.
 
 ### Version 0.1.2 (2016-01-04)
 * JS Docs

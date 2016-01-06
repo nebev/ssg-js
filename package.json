@@ -1,6 +1,6 @@
 {
   "name": "ssg-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Secure Shell GUI",
   "main": "lib/index.js",
   "scripts": {
