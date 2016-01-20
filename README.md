@@ -42,6 +42,8 @@ As SSH config doesn't come with an ability to add a description or tags, you mus
 		User ubuntu
 ```
 
+All ``@description`` and ``@tags`` must be declared _before_ your host definition.
+
 ## Generating Docs
 
 ```
@@ -50,7 +52,11 @@ As SSH config doesn't come with an ability to add a description or tags, you mus
 
 # Changelog
 
-### Version 0.1.3 (2014-01-06)
+### Version 0.1.4 (2016-01-21)
+* NodeJS Minimum engine version added (Issue #4)
+* Now hosts separated by spaces will be displayed on dedicated lines (Issue #3)
+
+### Version 0.1.3 (2016-01-06)
 * Updated documentation. Screenshots etc.
 
 ### Version 0.1.2 (2016-01-04)
