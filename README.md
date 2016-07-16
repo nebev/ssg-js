@@ -10,6 +10,12 @@ Simply type to filter and use the arrow keys to select. Press enter to open the 
 
 ![https://github.com/nebev/ssg-js](https://raw.githubusercontent.com/nebev/ssg-js/master/docs/screenshot.png)
 
+As of Version 0.1.5, ssg will also try to invoke the `aws` command on your local machine. If you happen to have configured your `aws` cli to output `json` (default)
+then you will also get a list of all your AWS servers currently running. SSG will then give you the opportunity to fill in a username and appropriate PEM.
+In upcoming versions, there may be an option to save this to your SSH config file.
+
+![https://github.com/nebev/ssg-js](https://raw.githubusercontent.com/nebev/ssg-js/master/docs/aws.png)
+
 ## Installation
 1. Install using `npm install -g ssg-js`
 2. Run ``ssg`` or alternatively ``ssg /path/to/ssh/config/file``
@@ -51,6 +57,10 @@ All ``@description`` and ``@tags`` must be declared _before_ your host definitio
 ```
 
 # Changelog
+
+### Version 0.1.5 (2016-07-17)
+* ssg will now show AWS servers if you happen to have the `aws` CLI configured
+* Minor bugfixes
 
 ### Version 0.1.4 (2016-01-21)
 * NodeJS Minimum engine version added (Issue #4)

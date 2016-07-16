@@ -1,6 +1,6 @@
 {
   "name": "ssg-js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Secure Shell GUI",
   "main": "lib/index.js",
   "scripts": {
@@ -10,31 +10,35 @@
   "author": "Ben Evans",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/nebev/ssg-js"
+    "type": "git",
+    "url": "https://github.com/nebev/ssg-js"
   },
   "dependencies": {
-    "blessed": "^0.1.81"
+    "blessed": "^0.1.81",
+    "bluebird": "^3.4.1",
+    "command-exists": "^1.0.1",
+    "flatmap": "0.0.3",
+    "promised-exec": "^1.0.1"
   },
   "keywords": [
-      "ssh",
-      "gui"
+    "ssh",
+    "gui"
   ],
-  "bin" : {
-      "ssg" : "./bin/ssg"
+  "bin": {
+    "ssg": "./bin/ssg"
   },
   "directories": {
-      "lib": "lib",
-      "bin": "bin"
+    "lib": "lib",
+    "bin": "bin"
   },
   "bugs": {
-   "url": "https://github.com/nebev/ssg-js/issues"
+    "url": "https://github.com/nebev/ssg-js/issues"
   },
   "homepage": "https://github.com/nebev/ssg-js",
   "devDependencies": {
     "jsdoc": "^3.4.0"
   },
-  "engines" : {
-    "node" : ">=0.12" 
+  "engines": {
+    "node": ">=0.12"
   }
 }
