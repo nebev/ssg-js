@@ -1,4 +1,4 @@
-# SSG - Secure Shell GUI
+# SSG - Secure Shell GUI (elgentos fork)
 
 ## Background
 This program shows a pretty GUI for all the SSH server connections found in your SSH config file. It also allows you to connect to them.
@@ -57,6 +57,11 @@ All ``@description`` and ``@tags`` must be declared _before_ your host definitio
 ```
 
 # Changelog
+
+### Version 0.2.0 (2019-02-14)
+* Added DigitalOcean droplet listing when `doctl` is available
+* Added caching of DigitalOcean results in cache file
+* Added CTRL+R refresh option for cache file
 
 ### Version 0.1.5 (2016-07-17)
 * ssg will now show AWS servers if you happen to have the `aws` CLI configured
