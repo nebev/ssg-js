@@ -1,6 +1,6 @@
 {
   "name": "ssg-js",
-  "version": "0.2.0 (elgentos)",
+  "version": "0.2.0-elgentos",
   "description": "Secure Shell GUI",
   "main": "lib/index.js",
   "scripts": {
