@@ -58,6 +58,11 @@ All ``@description`` and ``@tags`` must be declared _before_ your host definitio
 
 # Changelog
 
+### Version 0.3.0 (2021-11-19)
+* Removed DigitalOcean support
+* Removed AWS support
+* Changed GCP support from listing Kubernetes clusters to Compute Instances
+
 ### Version 0.2.0 (2019-02-14)
 * Added DigitalOcean droplet listing when `doctl` is available
 * Added caching of DigitalOcean results in cache file
