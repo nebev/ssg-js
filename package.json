@@ -18,7 +18,8 @@
     "bluebird": "^3.4.1",
     "command-exists": "^1.0.1",
     "flatmap": "0.0.3",
-    "promised-exec": "^1.0.1"
+    "promised-exec": "^1.0.1",
+    "ssh2": "^1.11.0"
   },
   "keywords": [
     "ssh",
